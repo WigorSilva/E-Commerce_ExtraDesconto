@@ -1,0 +1,32 @@
+a {
+
+    color: black;
+    font-size: 20px;
+
+}
+
+a:hover {
+
+    color: blueviolet;
+
+}
+
+img {
+
+    width: 250px;
+
+}
+
+button {
+
+    background-color: red;
+    color: black;
+    font-size: 15px;
+}
+
+button:hover {
+    
+    background-color: white;
+    color: blue;
+
+}
