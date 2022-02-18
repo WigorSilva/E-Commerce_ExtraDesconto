@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula06 - ex005</title>
+    <style> 
+        body {
+            background-color: rgba(0, 0, 0, 0.952);
+            color: rgb(252, 252, 252);
+            font: normal 15pt Arial;
+        }
+        h1 {
+            color: rgb(0, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>Save World</h1> 
+    <p>Formatação de números</p>
+
+    <script>
+            var n1 = Number(window.prompt(`Escolha um primeiro número para formatarmos`))
+            var n2 = Number.parseFloat(window.prompt(`Escolha um segundo número para formatarmos`))
+
+           // Formatando numero para dinheiro     
+
+            window.alert(`Seu primeiro numero em forma de Reais Fica: ${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} E seu segundo numero formatado em Reais fica: ${n2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+
+            //Formatando numero para porcentagem
+           
+          var porcent =  n1/n2 *100
+
+          window.alert(`A porcentagem de ${n1} em relação a ${n2} é igual à ${porcent.toFixed(2) + '%'}`) 
+
+          // Outras formatações para numeros
+
+          // Escolhendo quantas casas o numero vai ter depois da , ou do .
+
+          window.alert(`Seu numero com 1 casas depois do "." : ${n1.toFixed(1)}`)
+          window.alert(`Seu numero com 2 casas depois do "." : ${n1.toFixed(2)}`)
+          window.alert(`Seu numero com 3 casas depois do "." : ${n1.toFixed(3)}`)
+
+          // Trocando o . por , no número
+          
+          var n3 = Number(window.prompt(`Escolha um Número com pelo menos 1 casa depois do .`))
+          window.alert(`Apenas trocando o . do seu Número por outra coisa...`)
+          window.alert(`Seu numero com "," : ${n3.toFixed(2).replace('.', ',')}`)
+          window.alert(`Seu numero com "'" : ${n3.toFixed(2).replace(".", "'")}`)
+          window.alert(`Seu numero com ";" : ${n3.toFixed(2).replace('.', ';')}`)
+          
+          
+
+   </script>
+   </body> 
+   </html>        
