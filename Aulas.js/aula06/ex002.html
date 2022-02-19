@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula06 - ex002</title>
-    <style> 
-        body {
-            background-color: rgba(0, 0, 0, 0.952);
-            color: rgb(252, 252, 252);
-            font: normal 15pt Arial;
-        }
-        h1 {
-            color: rgb(0, 240, 240);
-        }
-    </style>
-</head>
-<body>
-    <h1>Save World</h1> 
-    <p>Variaveis + salvar dados do window prompt</p>
-    <script>
-        var nome = window.prompt("What's your name man?") // var = nome salva o que o usuario escrever na caixa como a variavel nome
-        
-        window.alert(nome + "? Really? " + nome + " is the worst name of the world") // um alerta em que irá mostrar seu a variavel nome
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula06 - ex002</title>
+        <style> 
+            body {
+                background-color: rgba(0, 0, 0, 0.952);
+                color: rgb(252, 252, 252);
+                font: normal 15pt Arial;
+            }
+            h1 {
+                color: rgb(0, 240, 240);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Save World</h1> 
+        <p>Variaveis + salvar dados do window prompt</p>
+        <script>
+            var nome = window.prompt("What's your name man?") // var = nome salva o que o usuario escrever na caixa como a variavel nome
+            
+            window.alert(nome + "? Really? " + nome + " is the worst name of the world") // um alerta em que irá mostrar seu a variavel nome
 
-        var gosto = window.prompt("Ok " + nome + " What do you like for make in your day?") 
+            var gosto = window.prompt("Ok " + nome + " What do you like for make in your day?") 
 
-        window.confirm(`Wow ${nome} i really like ${gosto} too, let's go be a friends?`) // metódo mais simples para juntar variaves com frases, sempre deve ser usado crases para funcionar
+            window.confirm(`Wow ${nome} i really like ${gosto} too, let's go be a friends?`) // metódo mais simples para juntar variaves com frases, sempre deve ser usado crases para funcionar
 
-    </script>
-</body>
+        </script>
+    </body>
 </html>

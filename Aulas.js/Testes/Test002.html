@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testes - Test002 </title>
-    <style> 
-        body {
-            background-color: rgba(0, 0, 0, 0.952);
-            color: rgb(252, 252, 252);
-            font: normal 15pt Arial;
-        }
-        h1 {
-            color: rgb(0, 240, 240);
-        }
-    </style>
-</head>
-<body>
-    <h1>Test2.0</h1> 
-    <p>Descobrir porcentagem do salario em relação a familia.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testes - Test002 </title>
+        <style> 
+            body {
+                background-color: rgba(0, 0, 0, 0.952);
+                color: rgb(252, 252, 252);
+                font: normal 15pt Arial;
+            }
+            h1 {
+                color: rgb(0, 240, 240);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Test2.0</h1> 
+        <p>Descobrir porcentagem do salario em relação a familia.</p>
 
-    <script>
-             var nome = window.prompt(`Hey maniniho, qual seu nome?`)
-             window.alert(`${nome}? Ah é um nome legal, bem diferente! Ei ${nome} Vamos fazer uns...`)
-             window.confirm(`TESTES!!!!`)
-             var salario = Number(window.prompt(`Qual é o seu salario atualmente?`))
-             var Family = Number(window.prompt(`Ok, sem contar voce, quantos membros da sua familia que trabalham registrado moram com voce?`))
-             var sTotal = Number(window.prompt(`E somando o salrio de todos mais o seu, qual a renda fiza mensal?`))
-             var porcent = salario/sTotal * 100 // porcentagem
-             window.alert(`Seu salario (${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}) corresponde à ${porcent.toFixed(2) + '%'} do salario total da familia`) 
+        <script>
+                var nome = window.prompt(`Hey maniniho, qual seu nome?`)
+                window.alert(`${nome}? Ah é um nome legal, bem diferente! Ei ${nome} Vamos fazer uns...`)
+                window.confirm(`TESTES!!!!`)
+                var salario = Number(window.prompt(`Qual é o seu salario atualmente?`))
+                var Family = Number(window.prompt(`Ok, sem contar voce, quantos membros da sua familia que trabalham registrado moram com voce?`))
+                var sTotal = Number(window.prompt(`E somando o salrio de todos mais o seu, qual a renda fiza mensal?`))
+                var porcent = salario/sTotal * 100 // porcentagem
+                window.alert(`Seu salario (${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}) corresponde à ${porcent.toFixed(2) + '%'} do salario total da familia`) 
 
-             // Código para formatar qualquer numero em dinheiro.
-             // salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' 
+                // Código para formatar qualquer numero em dinheiro.
+                // salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' 
 
-             // Como fazer porcentagem: (descobrindo a porcentagem de n1 em relação a n2)
-             // porcentagem = n1/n2 *100
+                // Como fazer porcentagem: (descobrindo a porcentagem de n1 em relação a n2)
+                // porcentagem = n1/n2 *100
 
-             // Para mostrar em porcentagem
-             // porcentagem.toFixed(2) + '%'
-    </script>         
-</body>
+                // Para mostrar em porcentagem
+                // porcentagem.toFixed(2) + '%'
+        </script>         
+    </body>
 </html>
