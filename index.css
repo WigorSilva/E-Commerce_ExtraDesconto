@@ -1,0 +1,30 @@
+.bandeiras {
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 100px;
+    
+}
+
+
+#user {
+
+    width: 25px;
+    height: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+
+}
+
+.header {
+
+    background-color: red;
+
+}
+
+body {
+
+    margin: 0px;
+
+}
