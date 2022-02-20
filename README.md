@@ -1,3 +1,3 @@
-Olá, este é um projeto que será desenvolvido aos poucos com os cursos de Bonieky Lacerda
+Olá, este é um projeto que será desenvolvido aos poucos com o conhecimento adquirido com as aulas do curso do Bonieky Lacerda.
 
-Haverá muitas páginas de teste apenas para realizar exercicios, mas tambem haverá uma página principal para portifolio.
+A intenção do projeto é estar criando site de E-commerce próprio, apenas com algumas inspirações no site da americanas
