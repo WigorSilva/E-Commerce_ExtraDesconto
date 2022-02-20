@@ -1,30 +1,106 @@
-.bandeiras {
+* {
 
-    width: 200px;
-    height: 200px;
-    border: 2px solid blue;
-    border-radius: 100px;
-    
+    box-sizing: border-box;
+
+}
+/* Cabeçalho */
+
+#nomeLogo {
+
+    font-size: 15pt;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+
 }
 
+#nomeLogo:hover {
 
-#user {
+    color: white;
 
-    width: 25px;
-    height: 25px;
+}
+
+#linkLogo {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#userLogo {
+
+    width: 40px;
+    height: 40px;
     border: 2px solid whitesmoke;
-    border-radius: 25px;
+    border-radius: 40px;
+    margin: 5px;
+    order: 3;
 
 }
 
-.header {
+.login {
 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    }
+
+header {
+
+    display: flex;
+    justify-content: space-between;
     background-color: red;
 
 }
 
+/* Fim cabeçalho */
+
+/*              */
+
 body {
 
     margin: 0px;
+
+}
+
+.bandeiras {
+
+    width: 160px;
+    height: 160px;
+    border: 2px solid blue;
+    border-radius: 80px;
+    margin: 29px;
+        
+}
+
+#categorias {
+
+    text-align: center;
+
+}
+
+.categorias {
+
+    display: flex;
+    flex-wrap:wrap;
+    margin: 1px;
+
+}
+
+.categorias img:hover {
+
+    width: 175px;
+    height: 175px;
+    border: 5px solid blue;
+    border-radius: 175px;
+
+}
+
+h3 {
+
+    margin: 29px;
+    width: 160px;
+    text-align: center;
 
 }
