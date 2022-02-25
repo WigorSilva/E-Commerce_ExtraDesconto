@@ -1,0 +1,115 @@
+* {
+
+    box-sizing: border-box;
+
+}
+/* Cabeçalho */
+
+#nomeLogo {
+
+    font-size: 15pt;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#nomeLogo:hover {
+
+    color: white;
+
+}
+
+#linkLogo {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#userLogo {
+
+    width: 40px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    margin: 5px;
+    order: 3;
+
+}
+
+.login {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    }
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+
+}
+
+/* Fim cabeçalho */
+
+/*              */
+
+body {
+
+    margin: 0px;
+
+}
+
+.categorias2 {
+
+    width: 161px;
+    height: 161px;
+    border: 3px solid blue;
+    border-radius: 150px;
+    margin: 25px;
+    overflow: hidden;
+    
+}
+
+.fotoCategorias {
+
+    width: 160px;
+    height: 160px;
+   
+
+}
+
+#categorias {
+
+    text-align: center;
+
+}
+
+.categorias {
+
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px;
+
+}
+
+.categorias2:hover {
+
+    width: 175px;
+    height: 175px;
+    border: 5px solid blue;
+    border-radius: 175px;
+
+}
+
+h3 {
+
+    margin: 23.5px;
+    width: 164px;
+    text-align: center;
+
+}
