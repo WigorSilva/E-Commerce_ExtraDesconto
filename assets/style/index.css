@@ -1,51 +1,45 @@
+/* Define todo o site */
+
 * {
 
     box-sizing: border-box;
 
 }
+
+/* Define todo o site */
+
 /* Cabeçalho */
 
-#nomeLogo {
+header {
 
-    font-size: 15pt;
-    margin-top: 8px;
-    text-decoration: none;
-    color: black;
-
-}
-
-#nomeLogo:hover {
-
-    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 182, 46, 0.849);
+    height: 80px;
 
 }
 
-#linkLogo {
+#listras {
 
-    text-decoration: none;
-    color: black;
-    height: 10px;
+    width: 35px;
 
 }
 
 #logo {
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
 
 }
 
-header {
+#pesquisa {
 
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(255, 182, 46, 0.849);
+    width: 35px;
 
 }
 
 /* Fim cabeçalho */
 
-/*              */
+/* Corpo */
 
 body {
 
@@ -53,26 +47,9 @@ body {
 
 }
 
-.categorias2 {
+/* Área Categorias */
 
-    width: 161px;
-    height: 161px;
-    border: 3px solid blue;
-    border-radius: 150px;
-    margin: 25px;
-    overflow: hidden;
-    
-}
-
-.fotoCategorias {
-
-    width: 160px;
-    height: 160px;
-   
-
-}
-
-#categorias {
+#tituloCategorias {
 
     text-align: center;
 
@@ -82,23 +59,83 @@ body {
 
     display: flex;
     flex-wrap:wrap;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 
+}
+
+.categorias2 {
+
+    width: 165px;
+    height: 165px;
+    border: 3px solid rgb(255, 182, 46);
+    border-radius: 165px;
+    overflow: hidden;
+    background-color:black;
+    margin: 23px;
+    
 }
 
 .categorias2:hover {
 
-    width: 175px;
-    height: 175px;
-    border: 5px solid blue;
-    border-radius: 175px;
+    border: 5px solid rgb(255, 182, 46);
+ 
+}
+
+.fotoCategorias {
+
+    width: 161px;
+
+}
+
+.fotoCategorias:hover {
+
+    width: 157px;
 
 }
 
 h3 {
 
-    margin: 23.5px;
-    width: 164px;
+    margin: 23px;
+    width: 165px;
     text-align: center;
 
 }
+
+/* Fim área Categorias */
+
+/* Área de Produtos */
+
+.produtos div {
+
+    display: flex;
+
+}
+
+.fotoProduto {
+
+width: 200px;
+
+}
+
+.produtoComprar {
+
+    border: 0px;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    width: 80px;
+    height: 30px;
+
+}
+
+.produtoComprar:hover {
+
+    width: 82px;
+    height: 32px;
+
+}
+
+/* Fim área de Produtos*/
+
+/* Fim do Corpo */
