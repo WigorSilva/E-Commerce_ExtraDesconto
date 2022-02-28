@@ -19,6 +19,12 @@ header {
 
 }
 
+header a {
+
+    height: min-content;
+
+}
+
 #listras {
 
     width: 35px;
@@ -28,6 +34,7 @@ header {
 #logo {
 
     width: 150px;
+    margin-top: 13px;
 
 }
 
@@ -106,9 +113,19 @@ h3 {
 
 /* Área de Produtos */
 
-.produtos div {
+.produto {
 
+    margin-top: 100px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.produto div {
+
+    width: 450px;
 
 }
 
@@ -139,3 +156,54 @@ width: 200px;
 /* Fim área de Produtos*/
 
 /* Fim do Corpo */
+
+/* Rodapé */
+
+.rodape {
+
+    background-color: rgba(253, 96, 56, 0.87);
+
+}
+
+#termosEinformacoes {
+
+    padding-top: 20px;
+    margin-right: 350px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+#cadastroEmidias {
+
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 200px;
+
+}
+
+#cadastroEmidias img {
+
+    width: 20px;
+    margin-right: 7px;
+
+}
+
+#creditos {
+
+border-top: 1px solid rgba(0, 0, 0, 0.432);
+
+}
+
+#creditos p {
+
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
