@@ -128,7 +128,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -192,36 +192,53 @@ width: 400px;
 .recomendados {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.recomendadosProdutos {
+
+    background-color: rgba(235, 229, 229, 0.349);
+    margin: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 80px;
+
+}
+
+.recomendadosProdutos p {
+
+    width: 250px;
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+
+.recomendadosProdutos h2 {
+
+    font-size: 18pt;
+
+}
+
+.recomendadosProdutos a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.recomendadosProdutos a:hover {
+
+    text-decoration: underline;
+
+}
+
+#duvidas {
+
     margin-bottom: 100px;
 
-}
-
-#recomendados1 {
-
-    border: 1px solid rgba(66, 66, 66, 0.911);
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 200px;
-}
-
-#recomendados2 {
-
-    border: 1px solid rgba(66, 66, 66, 0.911);
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 200px;
-}
-
-#recomendados3 {
-
-    border: 1px solid rgba(66, 66, 66, 0.911);
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 200px;
 }
 
 #duvidas h1 {
@@ -247,6 +264,7 @@ width: 400px;
 .rodape {
 
     background-color: rgb(255, 230, 0);
+    padding-bottom: 20px;
 
 }
 
@@ -293,7 +311,8 @@ width: 400px;
 
 #creditos {
 
-border-top: 1px solid rgba(0, 0, 0, 0.432);
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.432);
 
 }
 
